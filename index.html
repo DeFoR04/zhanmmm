@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Твой Сюрприз, Аюми</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Привет, Аюми!</h1>
+        <p>Нажми на экран и смотри, что произойдёт! ✨</p>
+        <div id="animationArea" class="animation-area"></div>
+        <button id="portalBtn">Перейти через портал</button>
+        <div id="message" class="hidden">
+            <p>Я так рад, что ты рядом со мной, жаным сол!</p>
+            <p>Я всегда буду рядом с тобой ❤️</p>
+            <img src="cute-pixel-heart.gif" alt="Милое сердце">
+        </div>
+        <div class="wish-form">
+            <h2>Напиши мне что-нибудь</h2>
+            <input type="text" id="wishInput" placeholder="Твои слова...">
+            <button onclick="submitWish()">Отправить</button>
+            <p id="wishResponse" class="hidden">Спасибо за твои слова, ты всегда в моём сердце ❤️</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
